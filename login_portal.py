@@ -24,8 +24,6 @@ class LoginPortal_Problem():
         self.driver.find_element(By.XPATH, '//*[@id="myModalMoveClick"]/div/div/div[3]/button').click()
         time.sleep(1)
 
-
-
 if __name__ == "__main__":
     clicktest = LoginPortal_Problem()
     clicktest.xpath_based_click()
